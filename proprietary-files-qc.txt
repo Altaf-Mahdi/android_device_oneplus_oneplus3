@@ -301,6 +301,7 @@ framework/embmslibrary.jar
 -framework/qcrilhook.jar|e61ef0bf49dc7a0e89e6e83b45d6fbb74ce06906
 framework/qti-telephony-common.jar|02fbc79f309af1c9ccfb1401cbd898138faf0848
 framework/QtiTelephonyServicelibrary.jar
+lib64/libparam.so
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/qti
 vendor/lib/libmdmdetect.so

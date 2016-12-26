@@ -393,11 +393,6 @@ vendor/lib64/qfp.wakeup.so
 # NFC firmware
 vendor/firmware/libpn548ad_fw.so
 
-# Radio - factory
--lib/libril.so
-lib64/libparam.so
--lib64/libril.so
-
 # Radio - MBN
 etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt
 etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn
