@@ -289,8 +289,7 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    libxml2 \
-    libprotobuf-cpp-full
+    libxml2
 
 # Sensors
 PRODUCT_PACKAGES += \
