@@ -1,3 +1,8 @@
+allow wcnss_service sdcardfs:dir { read open search };
+allow wcnss_service sdcardfs:file { read open append };
+allow wcnss_service media_rw_data_file:dir { read open search };
+allow wcnss_service media_rw_data_file:file { read open append };
+allow wcnss_service sdcardfs:file { getattr };
 allow wcnss_service self:capability {
     setgid
     setuid
