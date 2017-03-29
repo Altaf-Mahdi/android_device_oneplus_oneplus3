@@ -426,7 +426,7 @@ static void power_hint(struct power_module *module, power_hint_t hint,
             pthread_mutex_unlock(&s_interaction_lock);
 
 
-            int duration = 1500; // 1.5s by default
+            int duration = 1000; // 1s by default
             if (data) {
                 int input_duration = *((int*)data) + 750;
                 if (input_duration > duration) {
