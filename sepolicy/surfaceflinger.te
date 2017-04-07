@@ -1,1 +1,2 @@
 get_prop(surfaceflinger, diag_prop);
+allow surfaceflinger media_rw_data_file:file r_file_perms;
