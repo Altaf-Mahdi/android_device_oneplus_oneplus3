@@ -418,4 +418,6 @@
     <!-- Wether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
 
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 </resources>
