@@ -65,3 +65,6 @@ done
 # Enable all LPMs by default
 # This will enable C4, D4, D3, E4 and M3 LPMs
 write /sys/module/lpm_levels/parameters/sleep_disabled N
+
+# Set idle GPU to 133 Mhz
+write /sys/class/kgsl/kgsl-3d0/default_pwrlevel 6
