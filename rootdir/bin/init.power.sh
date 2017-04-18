@@ -24,8 +24,6 @@ write /sys/devices/soc/soc:qcom,bcl/mode "enable"
 write /sys/devices/system/cpu/cpu0/online 1
 write /sys/devices/system/cpu/cpu2/online 1
 
-# Enable Adaptive LMK
-write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
 write /sys/module/lowmemorykiller/parameters/vmpressure_file_min 81250
 
 # if EAS is present, switch to sched governor (no effect if not EAS)
