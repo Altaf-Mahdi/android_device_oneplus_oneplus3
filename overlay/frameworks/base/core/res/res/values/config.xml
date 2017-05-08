@@ -413,10 +413,7 @@
         <item>"/system/framework/oat/arm64/services.odex"</item>
         <item>"/system/framework/arm64/boot.oat"</item>
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
-    </string-array>
-
-    <!-- Wether device has dash charging support -->
-    <bool name="config_hasDashCharger">true</bool>
+   </string-array>
 
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
